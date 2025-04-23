@@ -17,20 +17,29 @@
                     <form action="https://www.google.com/search">
                         <table>
                             <tr>
+                                <th class="adv_th_left">Find pages with...</th>
+                                <th></th>
+                                <th class="adv_th_right">To do this in the search box.</th>
+                            </tr>
+                            <tr>
                                 <td class="adv_td_labels"><label for="atw" class="adv_labels">all these words:</label></td>
-                                <td class="adv_td_inputs"><input class="adv_input" id="atw" type="text" name="q" autofocus autocomplete="off"><br></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="atw" type="text" name="as_q" autofocus autocomplete="off"></td>
+                                <td class="adv_helpers">Type the important words: <span class="adv_examples">tri-colour rat terrier</span></td>
                             </tr>
                             <tr>
                                 <td class="adv_td_labels"><label for="tewop" class="adv_labels">this exact word or phrase:</label></td>
-                                <td class="adv_td_inputs"><input class="adv_input" id="tewop" type="text" name="q" autocomplete="off"><br></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="tewop" type="text" name="as_epq" autocomplete="off"></td>
+                                <td class="adv_helpers">Put exact words in quotes: <span class="adv_examples">"rat terrier"</span></td>
                             </tr>
                             <tr>                   
                                 <td class="adv_td_labels"><label for="aotw" class="adv_labels">any of these words:</label></td>
-                                <td class="adv_td_inputs"><input class="adv_input" id="aotw" type="text" name="q" autocomplete="off"><br></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="aotw" type="text" name="as_oq" autocomplete="off"></td>
+                                <td class="adv_helpers">Type <span class="adv_examples">OR</span> between all the words you want: <span class="adv_examples">miniature OR standard</span></td>
                             </tr>
                             <tr>                            
                                 <td class="adv_td_labels"><label for="notw" class="adv_labels">none of these words:</label></td>
-                                <td class="adv_td_inputs"><input class="adv_input" id="notw" type="text" name="q" autocomplete="off"><br></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="notw" type="text" name="as_eq" autocomplete="off"></td>
+                                <td class="adv_helpers">Put a minus sign just before words that you don't want:<br><span class="adv_examples">-rodent, -"Jack Russell"</span></td>
                             </tr>
                             <tr>
                                 <td></td>
@@ -40,5 +49,6 @@
                     </form>
                 </div>
         </div>
+        <div id="separator"></div>
     </body>
 </html>
