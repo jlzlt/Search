@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Advanced Search</title>
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="links_container">
+            <a href="index.html" class="links">Google Search</a>
+        </div>
+        <div class="advanced_search">
+            <div>
+                <h2 id="advsrch_head">Advanced Search</h2>
+            </div>
+            <div id="separator"></div>
+                <div id="adv_main">
+                    <form action="https://www.google.com/search">
+                        <table>
+                            <tr>
+                                <td class="adv_td_labels"><label for="atw" class="adv_labels">all these words:</label></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="atw" type="text" name="q" autofocus autocomplete="off"><br></td>
+                            </tr>
+                            <tr>
+                                <td class="adv_td_labels"><label for="tewop" class="adv_labels">this exact word or phrase:</label></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="tewop" type="text" name="q" autocomplete="off"><br></td>
+                            </tr>
+                            <tr>                   
+                                <td class="adv_td_labels"><label for="aotw" class="adv_labels">any of these words:</label></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="aotw" type="text" name="q" autocomplete="off"><br></td>
+                            </tr>
+                            <tr>                            
+                                <td class="adv_td_labels"><label for="notw" class="adv_labels">none of these words:</label></td>
+                                <td class="adv_td_inputs"><input class="adv_input" id="notw" type="text" name="q" autocomplete="off"><br></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="adv_td_buttons" style="text-align: right;"><input class="adv_btn" type="submit" value="Advanced Search"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+        </div>
     </body>
 </html>

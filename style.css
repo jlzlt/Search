@@ -6,6 +6,7 @@ h1 {
     color: #e8eaed;
     font-family: "Google Sans", Arial, sans-serif;
     font-size: 110px;
+    font-weight: 200;
     letter-spacing: -0.05em;
     margin-bottom: 20px;
     user-select: none;        
@@ -23,6 +24,7 @@ h1 {
     color: #e8eaed;
     line-height: 40px;
     width: 550px;
+    height: 50px;
     font-family: "Google Sans", Arial, sans-serif;
     outline: None;
     overflow-x: hidden;
@@ -56,4 +58,91 @@ h1 {
 
 .search_btn:hover {
     border: 1px solid #5f6368;
+}
+
+.links_container {
+    text-align: right;
+    margin: 25px 50px;
+    padding: 0 20px;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e8eaed;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.images {
+    display: inline-block;
+    margin-left: -125px; /* Adjust this to position after "le" */
+    vertical-align: top;
+    color: #8ab4f8;
+    font-family: "Google Sans", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    user-select: none;
+    position: relative;
+    top: -38px; /* Fine-tune vertical position */
+    left: 186px; /* Fine-tune horizontal position */
+}
+
+.google_img_header {
+    margin-bottom: -18px;
+}
+
+#advsrch_head {
+    color: #f28b82;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+#separator {
+    border-bottom: 1px solid black;
+}
+
+.adv_labels {
+    color: #969ba1;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-right: 25px;   
+}
+
+#adv_main {
+    margin-top: 25px;
+    margin-left: 50px;    
+}
+
+.adv_td_labels {
+    padding-bottom: 20px;
+}
+
+.adv_td_inputs {
+    padding-bottom: 20px;
+    width: 75%;
+}
+
+.adv_td_buttons {
+    padding-bottom: 20px;
+}
+
+.adv_input {
+    width: 100%;
+    border: 1px solid #5c5f5e;
+    color: #bdc1c6;
+    background-color: transparent;
+    height: 25px;
+}
+
+.adv_input:focus {
+    border: 1px solid #4d90fe;
 }
